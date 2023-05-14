@@ -1,2 +1,1 @@
-# holbertonschool-shell
-shell basics
+not empty
