@@ -2,7 +2,7 @@
 #writing script to show cd in ls format
 
 for file in *; do
-	if [[ -f "$file" && ! "$[file}' =~ ^\..*]]; then 
-		echo "{$file#8-}"
+	if [[ -f "$file" && ! "${file}" =~ ^\..* ]]; then 
+		echo "{$file#*-}"
 	fi
 done
