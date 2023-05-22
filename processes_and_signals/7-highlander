@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Indefinitly runs Script and gives other time to clean up.
 
-trap "echo I am invincible!!!' SIGTERM
+trap "echo I am invincible!!!" SIGTERM
 x=1
 while [ "$x" -gt 0 ]
 do
